@@ -1,0 +1,17 @@
+#index{
+    p{
+        color: $colorLetra;
+        background-color: $colorFondo;
+        word-spacing:10px;
+        font-size: 2rem;
+        font-family: $fontTitulo;
+        border: 4px solid $colorBorde;
+        grid-area: parrafo;
+        margin-top: 50px;
+        padding: 0%;
+    }
+}
+
+
+
+   

@@ -1,0 +1,11 @@
+@mixin flex($dir, $justify ,$align){
+    display: flex;
+    direction: $dir;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin animation($name , $duration , $iteration){
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-iteration-count: $iteration;
+}
